@@ -29,3 +29,12 @@
     justify-content: center;
     align-items: center;
 }
+
+.juat_for_example::after{
+    content: "after text";
+    
+}
+.juat_for_example::before{
+    content: "before text";
+    
+}
