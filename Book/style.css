@@ -1,0 +1,18 @@
+.state-test a:visited{
+background: gray;
+}
+
+.state-test a:link{
+text-decoration: underline;
+}
+
+.state-test a:hover{
+background: green;
+}
+.state-test a:active{
+background: red;
+}
+
+.state-test a:focus{
+border: 20px solid rgb(245, 245, 47)
+}

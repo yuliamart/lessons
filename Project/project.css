@@ -1,0 +1,171 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+  }
+div{
+    display: block;
+}
+
+/* SECTION */
+
+section{
+    height: 500px;
+justify-content: center;
+padding: 80px 0;
+}
+ 
+  .section-header {
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .section-header .section-title {
+    font-size: 42px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+    position: relative;
+  }
+  
+  .section-header .section-title span {
+    color: #61D2B4;
+  }
+  
+  .section-header .section-subtitle {
+    margin-top: 15px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .section-header .lines {
+    margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 2px solid #61D2B4;
+    margin-top: 15px;
+  }
+
+ .section-contant{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+     height: 500px;
+
+ }
+
+.contacts{
+    background: gray;
+
+}
+
+.advantages{
+background: blue;
+}
+
+.price{
+background: rgb(201, 197, 197);
+}
+
+.map{
+background: green;
+}
+
+.footer{
+    background: black;
+}
+.container-fluid.one{
+    color: red;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.card{
+    position: relative;
+display: flex;
+flex-direction: column;
+background: #fff;
+border-radius: 0.25rem;
+}
+
+.service-picture{
+background: #fff;
+height: 100px;
+display: flex;
+justify-content: center;
+}
+
+.service-description{
+background: burlywood;
+height: 100px;
+}
+
+.icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(80, 78, 78);
+}
+    
+.advantages__content{
+    display: flex;
+}
+
+.advantages__item{
+    flex: 1 1 0;
+}
+
+/* Price */
+
+.pricing-table {
+    padding: 0px 0px 40px 0px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    border: transparent;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #f1f1f1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .pricing-table:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-table .pricing-details h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background: #f1f1f1;
+    padding: 30px 0;
+  }
+  
+  .pricing-table .pricing-details span {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 400;
+    color: #61D2B4;
+    margin-bottom: 20px;
+  }
+
+  .table-left {
+    margin-top: 20px;
+  }
+
