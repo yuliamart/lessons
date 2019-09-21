@@ -4,7 +4,7 @@
 3. Nav Bar */
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -40,7 +40,7 @@ ul {
   5. SECTION TITLE
    ========================================================================== */
 section{
-    height: 500px;
+ 
 justify-content: center;
 padding: 80px 0;
 }
@@ -257,7 +257,7 @@ padding: 80px 0;
   5. Hero Area
    ========================================================================== */
 #hero-area {
-    background: url(../img/hero-area.jpg) fixed no-repeat;
+    background: url(../Project/image/hero-area.jpg) fixed no-repeat;
     background-size: cover;
     color: #fff;
     overflow: hidden;
@@ -321,7 +321,7 @@ padding: 80px 0;
    ========================================================================== */
 
 .navbar{
-background: rgb(26, 23, 23);
+background: rgb(41, 40, 40);
 position: fixed;
 }
 
@@ -329,7 +329,6 @@ position: fixed;
     position: relative;
     padding: 0px;
   }
-  
 
   .top-nav-collapse {
     background: #fff;
@@ -369,7 +368,7 @@ position: fixed;
   }
   
   .navbar-expand-lg .navbar-nav .nav-link {
-    color: #504343;
+    color: #fff;
     padding: 0 22px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -492,13 +491,6 @@ height: 100px;
     border: 2px solid rgb(80, 78, 78);
 }
     
-.advantages__content{
-    display: flex;
-}
-
-.advantages__item{
-    flex: 1 1 0;
-}
 /* ==========================================================================
   5. Services section
    ========================================================================== */
@@ -525,7 +517,7 @@ height: 100px;
   }
   
   .item-boxes .icon i {
-    font-size: 26px;
+    font-size: 36px;
     line-height: 60px;
     color: #61D2B4;
   }
@@ -548,19 +540,18 @@ height: 100px;
   6. Advantages Section Style
    ========================================================================== */
 #advantages {
-    background: fixed no-repeat;
+    background: #f5f5f5 url(../Project/image/advantages.jpg) fixed no-repeat;
     background-size: cover;
-    color: rgb(128, 111, 111);
     overflow: hidden;
     position: relative;
   }
   
   #advantages .section-title {
-    color: rgb(41, 39, 39);
+    color: #fff;
   }
   
   #advantages .section-subtitle {
-    color: rgb(29, 26, 26);
+    color: #fff;
   }
   
   #advantages .icon {
@@ -589,7 +580,7 @@ height: 100px;
   
   #advantages .box-item .icon i {
     color: #61D2B4;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 60px;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
@@ -602,16 +593,17 @@ height: 100px;
   }
   
   #advantages .box-item .text h4 {
-    color: #61D2B4;
+    color: rgb(90, 201, 171);
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
     line-height: 22px;
   }
   
-  #features .box-item .text p {
-    font-size: 14px;
-    line-height: 26px;
+  #advantages .box-item .text p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
   }
   
   #advantages .box-item:hover .icon {
@@ -619,14 +611,47 @@ height: 100px;
   }
   
   #advantages .box-item:hover .icon i {
-    color: #1d1919;
+    color: #fff;
   }
   
-  #advantages .show-box img {
-    position: absolute;
-    bottom: -120px;
-  }
 
+  /* ==========================================================================
+  5. Map
+   ========================================================================== */
+
+   #map{
+    text-align: center;
+}
+
+.map-container{
+    background: #e6e6e6;
+    padding: 40px 0;
+    height: 250px;
+}
+
+.map-title{
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.map-title a{
+color: inherit;
+text-decoration: none;
+}
+
+.map-title a:hover{
+text-decoration: underline;
+}
+
+.map-container .lines {
+    margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 2px solid #61D2B4;
+    margin-top: 15px;
+  }
 
 /* ==========================================================================
 15. Price
